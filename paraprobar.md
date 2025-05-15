@@ -32,9 +32,9 @@ Crear una Venta:
 }
 ## Crear un ProductoVenta (para la venta con ID 1):
 
-Método: POST
-URL: http://localhost:8080/api/productos-venta
-Cuerpo (Raw - JSON):
+## Método: POST
+## URL: http://localhost:8080/api/productos-venta
+## Cuerpo (Raw - JSON):
 
 
 {
@@ -44,11 +44,11 @@ Cuerpo (Raw - JSON):
   "precioUnitario": 10.00,
   "subtotal": 30.00
 }
-Crear una Factura:
+## Crear una Factura:
 
-Método: POST
-URL: http://localhost:8080/api/facturas
-Cuerpo (Raw - JSON):
+## Método: POST
+## URL: http://localhost:8080/api/facturas
+## Cuerpo (Raw - JSON):
 
 
 {
@@ -57,52 +57,52 @@ Cuerpo (Raw - JSON):
   "enviarCorreo": "cliente10@example.com"
 }
 
-Obtener todas las Ventas:
+## Obtener todas las Ventas:
 
-Método: GET
-URL: http://localhost:8080/api/ventas
-Acción: Envía esta petición para ver la lista de todas las ventas.
-
-
-Método: GET
-URL: http://localhost:8080/api/ventas/1
-Acción: Envía esta petición para ver los detalles de la venta con idVenta: 1.
+## Método: GET
+## URL: http://localhost:8080/api/ventas
+## Acción: Envía esta petición para ver la lista de todas las ventas.
 
 
-Método: GET
-URL: http://localhost:8080/api/productos-venta
-Acción: Envía esta petición para ver la lista de todos los productos de venta.
+## Método: GET
+## URL: http://localhost:8080/api/ventas/1
 
 
-Método: GET
-URL: http://localhost:8080/api/productos-venta/1
-Acción: Envía esta petición para ver los detalles del producto de venta con id: 1.
+
+## Método: GET
+## URL: http://localhost:8080/api/productos-venta
 
 
-Método: GET
-URL: http://localhost:8080/api/facturas
-Acción: Envía esta petición para ver la lista de todas las facturas.
+
+## Método: GET
+## URL: http://localhost:8080/api/productos-venta/1
 
 
-Método: GET
-URL: http://localhost:8080/api/facturas/1
 
-Actualizar una Venta (ejemplo, la venta con ID 1):
+## Método: GET
+## URL: http://localhost:8080/api/facturas
 
-Método: PUT
-URL: http://localhost:8080/api/ventas/1
-Cuerpo (Raw - JSON):
+
+
+## Método: GET
+## URL: http://localhost:8080/api/facturas/1
+
+## Actualizar una Venta (ejemplo, la venta con ID 1):
+
+## Método: PUT
+## URL: http://localhost:8080/api/ventas/1
+## Cuerpo (Raw - JSON):
 
 
 {
   "totalVenta": 150.00,
   "metodoEnvio": "retiroLocal"}
 
-Actualizar un ProductoVenta (ejemplo, el producto con ID 1):
+## Actualizar un ProductoVenta (ejemplo, el producto con ID 1):
 
-Método: PUT
-URL: http://localhost:8080/api/productos-venta/1
-Cuerpo (Raw - JSON):
+## Método: PUT
+## URL: http://localhost:8080/api/productos-venta/1
+## Cuerpo (Raw - JSON):
 
 
 {
@@ -110,18 +110,18 @@ Cuerpo (Raw - JSON):
   "subtotal": 50.00
 }
 
-Actualizar una Factura (ejemplo, la factura con código 1):
+## Actualizar una Factura (ejemplo, la factura con código 1):
 
-Método: PUT
-URL: http://localhost:8080/api/facturas/1
-Cuerpo (Raw - JSON):
+## Método: PUT
+## URL: http://localhost:8080/api/facturas/1
+## Cuerpo (Raw - JSON):
 
 {
   "totalFactura": 130.00,
   "enviarCorreo": "updated@example.com"
 }
 
-Eliminar una Venta (ejemplo, la venta con ID 1):
+## Eliminar una Venta (ejemplo, la venta con ID 1):
 
-Método: DELETE
-URL: http://localhost:8080/api/ventas/1
+## Método: DELETE
+## URL: http://localhost:8080/api/ventas/1
