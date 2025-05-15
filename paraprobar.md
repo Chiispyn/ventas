@@ -1,10 +1,10 @@
 
-base de datos nombre: db_venta
+## base de datos nombre: db_venta
 Crear una Venta:
 
-Método: POST
-URL: http://localhost:8080/api/ventas
-Cuerpo (Raw - JSON):
+## Método: POST
+## URL: http://localhost:8080/api/ventas
+## Cuerpo (Raw - JSON):
 
 
 {
@@ -30,7 +30,7 @@ Cuerpo (Raw - JSON):
     }
   ]
 }
-Crear un ProductoVenta (para la venta con ID 1):
+## Crear un ProductoVenta (para la venta con ID 1):
 
 Método: POST
 URL: http://localhost:8080/api/productos-venta
