@@ -17,5 +17,5 @@ public class Factura {
     private Integer codFactura;
     private Date fechaEmisio;
     private Double totalFactura;
-    private String enviarCorreo; // Parece ser el email, aunque el nombre sugiere otra cosa
+    private String enviarCorreo; 
 }

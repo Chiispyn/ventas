@@ -3,7 +3,7 @@
 Crear una Venta:
 
 ## Método: POST
-## URL: http://localhost:8080/api/ventas
+## URL: http://localhost:8084/api/ventas
 ## Cuerpo (Raw - JSON):
 
 
@@ -33,7 +33,7 @@ Crear una Venta:
 ## Crear un ProductoVenta (para la venta con ID 1):
 
 ## Método: POST
-## URL: http://localhost:8080/api/productos-venta
+## URL: http://localhost:8084/api/productos-venta
 ## Cuerpo (Raw - JSON):
 
 
@@ -47,7 +47,7 @@ Crear una Venta:
 ## Crear una Factura:
 
 ## Método: POST
-## URL: http://localhost:8080/api/facturas
+## URL: http://localhost:8084/api/facturas
 ## Cuerpo (Raw - JSON):
 
 
@@ -60,37 +60,37 @@ Crear una Venta:
 ## Obtener todas las Ventas:
 
 ## Método: GET
-## URL: http://localhost:8080/api/ventas
+## URL: http://localhost:8084/api/ventas
 ## Acción: Envía esta petición para ver la lista de todas las ventas.
 
 
 ## Método: GET
-## URL: http://localhost:8080/api/ventas/1
+## URL: http://localhost:8084/api/ventas/1
 
 
 
 ## Método: GET
-## URL: http://localhost:8080/api/productos-venta
+## URL: http://localhost:8084/api/productos-venta
 
 
 
 ## Método: GET
-## URL: http://localhost:8080/api/productos-venta/1
+## URL: http://localhost:8084/api/productos-venta/1
 
 
 
 ## Método: GET
-## URL: http://localhost:8080/api/facturas
+## URL: http://localhost:8084/api/facturas
 
 
 
 ## Método: GET
-## URL: http://localhost:8080/api/facturas/1
+## URL: http://localhost:8084/api/facturas/1
 
 ## Actualizar una Venta (ejemplo, la venta con ID 1):
 
 ## Método: PUT
-## URL: http://localhost:8080/api/ventas/1
+## URL: http://localhost:8084/api/ventas/1
 ## Cuerpo (Raw - JSON):
 
 
@@ -101,7 +101,7 @@ Crear una Venta:
 ## Actualizar un ProductoVenta (ejemplo, el producto con ID 1):
 
 ## Método: PUT
-## URL: http://localhost:8080/api/productos-venta/1
+## URL: http://localhost:8084/api/productos-venta/1
 ## Cuerpo (Raw - JSON):
 
 
@@ -113,7 +113,7 @@ Crear una Venta:
 ## Actualizar una Factura (ejemplo, la factura con código 1):
 
 ## Método: PUT
-## URL: http://localhost:8080/api/facturas/1
+## URL: http://localhost:8084/api/facturas/1
 ## Cuerpo (Raw - JSON):
 
 {
@@ -124,4 +124,4 @@ Crear una Venta:
 ## Eliminar una Venta (ejemplo, la venta con ID 1):
 
 ## Método: DELETE
-## URL: http://localhost:8080/api/ventas/1
+## URL: http://localhost:8084/api/ventas/1
